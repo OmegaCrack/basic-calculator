@@ -1,0 +1,14 @@
+/home/charles/Documents/code/helloworld/bin/Debug/net10.0/helloworld
+/home/charles/Documents/code/helloworld/bin/Debug/net10.0/helloworld.deps.json
+/home/charles/Documents/code/helloworld/bin/Debug/net10.0/helloworld.runtimeconfig.json
+/home/charles/Documents/code/helloworld/bin/Debug/net10.0/helloworld.dll
+/home/charles/Documents/code/helloworld/bin/Debug/net10.0/helloworld.pdb
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.GeneratedMSBuildEditorConfig.editorconfig
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.AssemblyInfoInputs.cache
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.AssemblyInfo.cs
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.csproj.CoreCompileInputs.cache
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.dll
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/refint/helloworld.dll
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.pdb
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.genruntimeconfig.cache
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/ref/helloworld.dll

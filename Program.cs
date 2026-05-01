@@ -1,38 +1,56 @@
 ﻿using System;
 
-namespace Conditional
+namespace Programme
 {
-    class IfStatement {
-        public static void Main(string[] args)
+    class Calculator
+    {
+        static void Main(string[] args)
         {
+            double num1 = 0;
+            double num2 = 0;
+            double result = 0;
+
+            Console.WriteLine("-----------------");
+            Console.WriteLine("SIMPLE CALCULATOR");
+            Console.WriteLine("-----------------");
+
+            Console.Write("Enter first number: ");
+            num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter second number: ");
+            num2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Enter your option: ");
             
-            int outter = 6;
-            int inner = 5;
+            Console.WriteLine("\t+ : Add");
+            Console.WriteLine("\t- : Subtract");
+            Console.WriteLine("\t* : Multiply");
+            Console.WriteLine("\t/ : Divide");
 
-            switch (outter) {
-                case 1:
-                    Console.WriteLine("Outter case 1");
+            switch (Console.ReadLine())
+            {
+                case "+":
+                    result = num1 + num2;
+                    Console.WriteLine("Your result: {0} + {1} = {2}", num1, num2, result);
                     break;
-                case 2: 
-                    Console.WriteLine("Outter case 2");
-                    switch (inner) {
-                        case 1:
-                            Console.WriteLine("Inner case 1");
-                            break;
 
-                        case 2:
-                            Console.WriteLine("Inner case 2");
-                            break;
-                        case 3:
-                            Console.WriteLine("Inner case 3");
-                            break;
-                        default:
-                            Console.WriteLine("Default Inner run");
-                            break;
-                    }
+                case "-":
+                    result = num1 - num2;
+                    Console.WriteLine("Your result: {0} - {1} = {2}", num1, num2, result);
                     break;
-                default:
-                    Console.WriteLine("Default Outter run");
+
+                case "*":
+                    result = num1 * num2;
+                    Console.WriteLine("Your result: {0} * {1} = {2}", num1, num2, result);
+                    break;
+
+                case "/":
+                    result = num1 / num2;
+                    Console.WriteLine("Your result: {0} / {1} = {2}", num1, num2, result);
+                    break;
+
+                default: 
+                    Console.WriteLine("That was not a valid option.");
                     break;
             }
 

@@ -12,3 +12,4 @@
 /home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.pdb
 /home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.genruntimeconfig.cache
 /home/charles/Documents/code/helloworld/obj/Debug/net10.0/ref/helloworld.dll
+/home/charles/Documents/code/helloworld/obj/Debug/net10.0/helloworld.sourcelink.json
